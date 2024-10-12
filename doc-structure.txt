@@ -1,0 +1,119 @@
+Get started
+    ** put together relevant screenshots
+
+
+    Requirements:  Elixir and erlang/postgres - directions/links
+        install instructions for elixir and erlang
+            install postgres.app
+            install postico
+
+    Where do i get the code?
+         - fork the repo and clone locally
+         - make a copy for backup puro original co
+
+    Installation
+
+
+Features
+    payments
+        add products to stripe
+        config settings
+        handlers/routes and controllers
+        webhooks  
+            config stripe webhook route and get hmac_secret
+
+        also look here - https://saasykit.com/docs/development/events    
+
+        subscriptions
+        onetime payments
+
+    components
+        builtin
+        landing page components
+            navbar
+            hero
+            social proof
+            Features
+            Faq 
+            pricing
+            footer
+            logo_cloud
+
+
+
+    Error pages
+
+    Blog and SEo 
+    Emails 
+    Authentication
+        gen auth
+        social login
+            google
+            twitter
+        magic links
+
+    Teams
+        invite
+        remove
+
+    API 
+
+    Notifications 
+        annuncements and notifications    
+
+    Background jobs
+        genserver and oban    
+
+    Stats 
+        something like this - https://saasykit.com/docs/stats
+
+
+    waitlist
+        add a waitlistpage
+
+    Invoices
+        users will be able to view and dowloand invoices from their settings pahe..
+
+    Settings    
+        https://saasykit.com/docs/configurations    
+    
+    Settings
+        cookie consent page ( what is it? how does it work? what can i use it for?)    
+
+    subscriptions
+        View all your subscribers ( name/email/plan/active, customer since)
+
+    Terms and services
+
+    Multitenancy
+
+    User impersonation
+
+
+
+Deployment
+    - deploy checklist - look at https://saasykit.com/docs/getting-started/new-product-check-list
+    - CI/CD pipeline
+    - build docker image
+    - Deploy to DO/Linode
+        - deploy with nginx
+        - setup ssl with letsencrypt
+
+    - Deploy to fly.io
+        simplest options
+        how do you setup a database in fly.io    
+
+
+=====
+
+ {
+      "group": "Essentials",
+      "pages": [
+        "essentials/markdown",
+        "essentials/code",
+        "essentials/images",
+        "essentials/settings",
+        "essentials/navigation",
+        "essentials/reusable-snippets"
+      ]
+    },
