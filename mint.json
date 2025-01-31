@@ -37,7 +37,6 @@
       "group": "Get Started",
       "pages": [
         "get-started/requirements",
-        "get-started/getcode",
         "get-started/installation"
         
       ]
@@ -49,6 +48,7 @@
         "features/blog-and-seo",
         "features/email",
         "features/auth",
+        "features/social-login",
         "features/components",
         "features/error-pages",
         "features/invoices",
