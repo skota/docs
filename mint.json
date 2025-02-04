@@ -18,7 +18,7 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@phoenixjumpstart.com"
+      "url": "mailto:info@phoenixjumpstart.com"
     }
   ],
   "topbarCtaButton": {
@@ -38,7 +38,14 @@
       "pages": [
         "get-started/requirements",
         "get-started/installation"
-        
+      ]
+    },
+    {
+      "group": "Tutorials",
+      "pages": [
+        "tutorials/fork",
+        "tutorials/stripe-integration",
+        "tutorials/configure-landing-page"
       ]
     },
    

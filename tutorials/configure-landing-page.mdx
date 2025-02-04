@@ -1,0 +1,36 @@
+---
+title: 'Configure landing page'
+description: 'Learn to quickly configure the landing page.'
+icon: 'code'
+---
+
+
+## Landing page
+Phoenixjumpstart comes with a prebuilt landing page. This landing page is just a collection of 
+plain phoenix components. Phoenixjumpstart comes with marketing text specific to the starter kit.
+
+To change this to reflect your own marketing text, update the functions inside `lib/phoenixjumpstart/static_data`.
+
+This module contains functions that return the following data
+
+- Hero section.
+- Pricing tables.
+- Features and benefits.
+- Faqs.
+- Social links in the Footer.
+
+
+After the markeing text is updated, replace the application logo defined inside navbar function in `lib/phoenixjumpstart_web/components/landing_page_components.ex`. That is it. You are done
+
+### How it works
+All components that are part of the landing page are defined in `lib/phoenixjumpstart_web/components/landing_page_components.ex`.
+
+`lib/phoenixjumpstart_web/controllers/home/home_controller.ex` contains the code to extract this marketing data and 
+feed it to home page template.
+
+The templates are defined in `lib/phoenixjumpstart_web/controllers/home/home_html/home.html.heex`
+
+
+
+
+

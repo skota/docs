@@ -1,0 +1,37 @@
+---
+title: 'Keep your fork up to date'
+description: 'How to keep your fork uptodate'
+icon: 'code'
+---
+
+It’s important to keep your fork up to date with the original repository. This ensures that your fork has the latest changes and features. This guide will show you how to keep your fork up-to-date with the original repository.
+
+## 1. Fork the repo
+
+
+## 2. Clone the repo
+```
+$git clone git@github.com:[your-fork-name].git
+```
+
+
+## 3. Add the original repo as a remote
+```
+$git remote add upstream git@github.com:skota/jumpstart_core.git
+```
+
+## 4. Fetch latest changes from the original repo
+```
+git fetch upstream
+```
+
+## 5. Merge changes from the original repo
+```
+git merge upstream/master
+```
+
+## 6. Push changes to your fork.
+
+```
+git push origin master
+```
