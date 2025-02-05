@@ -30,6 +30,17 @@ Next open "mix.exs", and add any additional dependencies. Next run the following
 
 `$mix deps.get`
 
+### Export environment variables
+Make a copy of `.env.sample` 
+
+```
+$cp .env.sample .env
+```
+
+Next add the necessary environment variables inside this file and export the file
+```
+$ export .env
+```
 
 ### update database connection info
 Ensure that you have setup postgres and have connection credentials. Open "config/dev.exs" and
