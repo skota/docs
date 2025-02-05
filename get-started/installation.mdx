@@ -22,6 +22,11 @@ You will now need to rename your app from "Phoenixjumpstart" to "Invoicehero". C
 
 ` $mix rename Phoenixjumpstart Invoicehero  `
 
+*Note The capitalization above.*
+
+### Update tailwind.config.js
+Open `assets/tailwind.config.js` and replace all occurences of 'phoenixjumpstart_web' with your application name (ex: invoicehero_web).
+
 
 
 ### Install dependencies
@@ -52,11 +57,9 @@ We are now ready to create the database and run migrations
 `$mix ecto.create`
 
 
-### Install Stripe
-Phoenixjumpstart provides Stripe and Paddle as payment processors. As of now you can install Stripe, Paddle is under development.
-
 
 ### Run the Application
+Launch the application `$iex -S mix phx.server`
 
 
 
